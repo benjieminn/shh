@@ -9,10 +9,6 @@ body {
   padding: auto;
 }
 
-.align-center {
-  text-align: center;
-}
-
 .services {
   text-align: center;
   padding-bottom: 50px;
@@ -29,9 +25,8 @@ body {
 }
 
 .card {
-    min-height: 700px;
+    min-height: 600px;
 }
-
 .book-now-button {
   border-radius: 15px;
   background-color: orange;
@@ -49,4 +44,18 @@ body {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+.map-responsive{
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height:0;
+}
+.map-responsive iframe{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
